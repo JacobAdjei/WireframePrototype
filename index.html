@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="main-container">
-        <div id="nav-bar">
+        <nav id="nav-bar" aria-label="Main navigation">
             <a href="" class="nav-button" id="home-button">Home</a>
             <a href="" class="nav-button" id="portfolio-button">Portfolio</a>
             <a href="" class="nav-button" id="tasks-button">Tasks</a>
@@ -16,14 +16,14 @@
             <a href="" class="nav-button" id="timesheets-button">Timesheets</a>
             <a href="" class="nav-button" id="journal-button">Journal</a>
             <a href="" class="nav-button" id="progress-button">Progress</a>
-            <div id="logo">logo</div>
-            <div id="burger-menu">burger</div>
-        </div>
+            <div id="logo" class="nav-button">logo</div>
+            <button id="burger-menu" class="nav-button" aria-label="Menu">burgerplaceholder</button>
+        </nav>
         <div id="content">
             <h1 id="dashboard-header">Dashboard</h1>
             <div id="dashboard-item-container">
                 <div id="portfolio-item">
-                    <h3 class="dashboard-item-heading">Portfolio</h3>
+                    <h2 class="dashboard-item-heading">Portfolio</h2>
                     <button class="dashboard-item-link">➡️</button>
                     <div id="portfolio-item-container">
                         <div id="portfolio-graph">
@@ -37,27 +37,27 @@
                 </div>
 
                 <div id="tasks-item">
-                    <h3 class="dashboard-item-heading"></h3>
+                    <h2 class="dashboard-item-heading">Tasks</h2>
                     <button class="dashboard-item-link"></button>
                 </div>
 
                 <div id="timesheets-item">
-                    <h3 class="dashboard-item-heading"></h3>
+                    <h2 class="dashboard-item-heading">Timesheets</h2>
                     <button class="dashboard-item-link"></button>
                 </div>
 
                 <div id="journal-item">
-                    <h3 class="dashboard-item-heading"></h3>
+                    <h2 class="dashboard-item-heading">Journal</h2>
                     <button class="dashboard-item-link"></button>
                 </div>
 
                 <div id="messages-item">
-                    <h3 class="dashboard-item-heading"></h3>
+                    <h2 class="dashboard-item-heading">Messages</h2>
                     <button class="dashboard-item-link"></button>
                 </div>
 
                 <div id="progress-item">
-                    <h3 class="dashboard-item-heading"></h3>
+                    <h2 class="dashboard-item-heading">Progress</h2>
                     <button class="dashboard-item-link"></button>
                 </div>
             </div>
